@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:vibeComposer}",
+            "name": "Debug vibeComposer",
+            "target": "vibeComposer",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug vibeComposer"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:vibeComposer}",
+            "name": "Release vibeComposer",
+            "target": "vibeComposer",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release vibeComposer"
+        }
+    ]
+}
