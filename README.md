@@ -1,6 +1,48 @@
 # vibeComposer
 
-A macOS SwiftUI application for AI-assisted development workflow management and project composition.
+A macOS native desktop application for AI-assisted development workflow management and project composition.
+
+## 功能定位
+
+vibeComposer 是一个 **macOS 原生桌面应用**，专为管理 AI 辅助开发工作流而设计。它帮助开发者追踪和管理 AI 生成的代码变更，提供完整的项目分析和审查能力。
+
+### 核心功能
+
+1. **项目管理与扫描**
+   - 打开本地项目文件夹
+   - 扫描 Git 仓库、文件变更、项目结构
+   - 分析前端页面、后端 API、数据库结构
+   - 识别 AI Logic 和 .vibe harness 配置
+
+2. **AI 工作追踪**
+   - 追踪 AI 生成的代码和变更记录
+   - 查看生成历史和代码对齐度
+   - 管理开发轮次和审查流程
+
+3. **Vibe Harness 生成**
+   - 为 AI 辅助工具生成项目配置文件
+   - 自动分析项目结构并生成 harness
+   - 支持 Claude Code 等 AI 开发工具
+
+4. **控制中心**
+   - 管理开发轮次（Rounds）
+   - 审查 AI 生成的代码变更
+   - 追踪项目进度和状态
+
+5. **多维度视图**
+   - **概览视图** - 项目整体状态和进度
+   - **看板视图** - 任务和问题管理
+   - **AI 工作视图** - AI 生成内容追踪
+   - **控制中心** - 轮次管理和审查
+   - **生成记录** - 历史生成内容查看
+   - **对齐分析** - 代码与目标对齐度分析
+   - **技术详情** - 项目技术栈和结构详情
+
+6. **用户体验**
+   - 多主题支持（黑色/白色/深灰色主题）
+   - 原生 macOS 界面设计
+   - 实时刷新和状态更新
+   - 完整的引导教程
 
 ## Features
 
